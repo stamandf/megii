@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/fonts/icomoon/style.css';
 import $ from 'jquery';
-import Popper from 'popper.js';
+import Popper from '@popperjs/core';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
