@@ -3,6 +3,7 @@ import React from 'react';
 const Broker = (props) => {
     const { broker, isOne } = props;
     const colWidth = isOne ? "col-md-8 mb-5 ms-auto mb-md-0":"col-md-4 mb-5 ms-auto mb-md-0";
+    console.log('broker phone = ', broker.phone);
 
         return(
             <div className={colWidth}>
@@ -17,7 +18,7 @@ const Broker = (props) => {
                     <div className="social-32913 d-flex gap-1">
                         <a href={broker.facebook} target="_blank"><span className="icon-facebook"></span></a>
                         <a href={broker.instagram} target="_blank"><span className="icon-instagram"></span></a>
-                        <a href={broker.phone} target="_blank"><span className="icon-phone"></span></a>
+                        <a href={`tel:+${broker.phone}`}><span className="icon-phone"></span></a>
                     </div>
                 </div>
             </div>
