@@ -22,7 +22,7 @@ const OurTeam = () => {
         return finalResult;
     }
     return (
-        <section className="site-section">
+        <section className="site-section" id="brokers">
             <div className="container justify-content-center">
                 <div className="row justify-content-center mb-5">
                     <div className="col-md-6 text-center">

@@ -11,10 +11,10 @@ function Footer() {
               <div className="col-md-3">
                 <h3 className="text-white h5 mb-3">Site Links</h3>
                 <ul className="list-unstyled menu-arrow">
-                  <li><a href="#">Properties</a></li>
-                  <li><a href="#">Brokers</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  {/* <li><a href="#">Properties</a></li> */}
+                  <li><a href="#brokers">Brokers</a></li>
+                  {/* <li><a href="#">Testimonials</a></li> */}
+                  <li><a href="#brokers">Contact Us</a></li>
                 </ul>
               </div>
               <div className="col-md-4">

@@ -8,6 +8,7 @@ function Header() {
     console.log('Clicked!');
     setMobileMenu(!isOpen);
   }
+
     return (
       <div className={isOpen ? "site-wrap offcanvas-menu active" : "site-wrap"} id="home-section">
         <div className="site-mobile-menu site-navbar-target">
@@ -18,10 +19,10 @@ function Header() {
           </div>
           <div className="site-mobile-menu-body">
             <ul className="site-nav-wrap">
-              <li className="nav-item"><a href="property.html" className="nav-link">Properties</a></li>
-              <li className="nav-item"><a href="agents.html" className="nav-link">Brokers</a></li>
-              <li className="nav-item"><a href="about.html" className="nav-link">Testimonials</a></li>
-              <li className="nav-item"><a href="contact.html" className="nav-link">Contact Us</a></li>
+              {/* <li className="nav-item"><a href="property.html" className="nav-link">Properties</a></li> */}
+              <li className="nav-item"><a href="#brokers" className="nav-link" onClick={toggleMenu}>Brokers</a></li>
+              {/* <li className="nav-item"><a href="about.html" className="nav-link">Testimonials</a></li> */}
+              <li className="nav-item"><a href="#brokers" className="nav-link" onClick={toggleMenu}>Contact Us</a></li>
               <li className="nav-item"><a href="#" className="nav-link">FR</a></li>
             </ul>
           </div>
@@ -38,11 +39,11 @@ function Header() {
                 <span className="d-inline-block d-lg-none"><a href="#" className="text-white site-menu-toggle js-menu-toggle py-5 text-white" onClick={toggleMenu}><span className="icon-menu h3 text-white"></span></a></span>
                 <nav className="navbar navbar-expand-lg site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <div className="navbar-collapse collapse" id="navbarSupportedContent">
-                  <ul className="navbar-nav site-menu main-menu js-clone-nav ml-auto ">
-                    <li className="nav-item"><a href="property.html" className="nav-link">Properties</a></li>
-                    <li className="nav-item"><a href="agents.html" className="nav-link">Brokers</a></li>
-                    <li className="nav-item"><a href="about.html" className="nav-link">Testimonials</a></li>
-                    <li className="nav-item"><a href="contact.html" className="nav-link">Contact Us</a></li>
+                  <ul className="navbar-nav site-menu main-menu js-clone-nav ml-auto" >
+                    {/* <li className="nav-item"><a href="property.html" className="nav-link">Properties</a></li> */}
+                    <li className="nav-item"><a href="#brokers" className="nav-link">Brokers</a></li>
+                    {/* <li className="nav-item"><a href="about.html" className="nav-link">Testimonials</a></li> */}
+                    <li className="nav-item"><a href="#brokers" className="nav-link">Contact Us</a></li>
                     <li className="nav-item"><a href="#" className="nav-link">FR</a></li>
                   </ul>
                 </div>
