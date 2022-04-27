@@ -1,16 +1,24 @@
 import React from 'react'
 
-function mobileMenu() {
+function MobileMenu() {
     return (
-        <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
+        <div className="site-mobile-menu site-navbar-target">
+        <div className="site-mobile-menu-header">
+          <div className="site-mobile-menu-close mt-3">
+            <span className="icon-close2 js-menu-toggle"></span>
           </div>
         </div>
-        <div class="site-mobile-menu-body"></div>
+        <div className="site-mobile-menu-body">
+          <ul className="site-nav-wrap">
+            <li className="nav-item"><a href="property.html" className="nav-link">Properties</a></li>
+            <li className="nav-item"><a href="agents.html" className="nav-link">Brokers</a></li>
+            <li className="nav-item"><a href="about.html" className="nav-link">Testimonials</a></li>
+            <li className="nav-item"><a href="contact.html" className="nav-link">Contact Us</a></li>
+            <li className="nav-item"><a href="#" className="nav-link">FR</a></li>
+          </ul>
+        </div>
       </div>
     );
 }
 
-export default mobileMenu;
+export default MobileMenu;
