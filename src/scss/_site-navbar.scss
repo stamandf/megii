@@ -211,21 +211,22 @@
 
 
 // mobile menu
-
+ 
 .site-mobile-menu {
 	@media(min-width:390px) {
 	
 	width: 300px;
+	height: fit-content;
 	position: fixed;
 	right: 0;
 	z-index: 2000;
 	padding-top: 20px;
 	background: $white;
-	height: calc(100vh);
+	// height: calc(100vh);
 	
 	transform: translateX(110%);
-	box-shadow: -10px 0 20px -10px rgba(0,0,0,.1);
-	transition: .3s all ease-in-out;
+	box-shadow: -10px 10px 20px -10px rgba(0,0,0,.1);
+	transition: .5s all ease-in-out;
 
 	.offcanvas-menu & {
 		transform: translateX(0%);
@@ -275,9 +276,9 @@
   	-webkit-overflow-scrolling: touch;
 		position: relative;
 		padding: 0 20px 20px 20px;
-
-		height: calc(100vh - 52px);
-		padding-bottom: 150px;
+		height: fit-content;
+		// height: calc(100vh - 52px);
+		// padding-bottom: 150px;
 
 	}
 	.site-nav-wrap {
