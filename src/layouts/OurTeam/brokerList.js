@@ -6,7 +6,7 @@
             "photo": require("../../assets/images/erosPortrait.jpg"),
             "facebook": "https://www.facebook.com/MaisonErosGreatti",
             "instagram": "https://www.instagram.com/erosgreatti/",
-            "phone": "514-839-2565"
+            "phone": "5148392565"
         },
         { 
             "id": 2,
@@ -15,7 +15,7 @@
             "photo": require("../../assets/images/denisPortrait.jpg"),
             "facebook": "https://www.facebook.com/Mr.Kash.Denis/",
             "instagram": "",
-            "phone": "514-555-5555"
+            "phone": "5148452723"
         }
         
     ]
