@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import logo from '../../assets/images/logoWhite.svg';
 
 function Header() {
@@ -9,8 +9,21 @@ function Header() {
     setMobileMenu(!isOpen);
   }
 
+  const closeOnScroll = () => {
+    if (window.scrollY > 100 && isOpen) {
+      setMobileMenu(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', closeOnScroll);
+    return () => {
+      window.removeEventListener('scroll', closeOnScroll);
+    }
+  },[isOpen]);
+
     return (
-      <div className={isOpen ? "site-wrap offcanvas-menu active" : "site-wrap"} id="home-section">
+      <div className={isOpen ? "offcanvas-menu active" : ""}>
         <div className="site-mobile-menu site-navbar-target">
           <div className="site-mobile-menu-header">
             <div className="site-mobile-menu-close mt-3" onClick={toggleMenu}>
