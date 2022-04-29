@@ -3,7 +3,6 @@ import React from 'react';
 const Broker = (props) => {
     const { broker, isOne } = props;
     const colWidth = isOne ? "col-md-8 mb-5 ms-auto mb-md-0":"col-md-4 mb-5 ms-auto mb-md-0";
-    console.log('broker phone = ', broker.phone);
 
         return(
             <div className={colWidth}>
