@@ -42,7 +42,8 @@ i18n
           footer: {
             siteLinks: 'Site Links',
             socials: 'Socials',
-            ourMission: '',
+            ourMissionTitle: 'Our Mission',
+            ourMissionText: 'Promote the highest ethical and professional standards and collaboration among our members.  Ensure a smooth process and positive experience in the purchase or sale of your home and properties.',
             copyright: 'All rights reserved'
           }
         }
@@ -72,7 +73,8 @@ i18n
           footer: {
             siteLinks: 'Liens du site',
             socials: 'Sociaux',
-            ourMission: '',
+            ourMissionTitle: 'Notre mission',
+            ourMissionText: 'Promouvoir des normes élevées de manières éthiques et professionnelles et de collaboration entre nos membres. Assurez que le processus d\'achat ou de vente de votre maison et de vos propriétés se fasse de manière fluide et agréable.',
             copyright:'Tous droits réservés'
           }
         }
