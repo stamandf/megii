@@ -38,6 +38,12 @@ i18n
           brokerTitle: {
             erosGreatti: 'Certified Residential and Commercial Real Estate Broker AEO',
             denisCherkashin: 'Residential and Commercial Real Estate Broker'
+          },
+          footer: {
+            siteLinks: 'Site Links',
+            socials: 'Socials',
+            ourMission: '',
+            copyright: 'All rights reserved'
           }
         }
       },
@@ -62,6 +68,12 @@ i18n
           brokerTitle: {
             erosGreatti: 'Courtier immobilier résidentiel et commercial agréé DA',
             denisCherkashin: 'Courtier immobilier résidentiel et commercial'
+          },
+          footer: {
+            siteLinks: 'Liens du site',
+            socials: 'Sociaux',
+            ourMission: '',
+            copyright:'Tous droits réservés'
           }
         }
       }
