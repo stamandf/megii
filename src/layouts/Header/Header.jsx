@@ -6,7 +6,7 @@ import NavItems from '../NavItems/NavItems';
 function Header() {
   const [isOpen, setMobileMenu] = useState(false);
   const [language, setLanguage] = useState('en');
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const switchLanguage = () => {
     setLanguage(language === 'en' ? 'fr' : 'en');
