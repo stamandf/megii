@@ -27,7 +27,7 @@ const OurTeam = () => {
     }
     return (
         <section className="site-section" id="brokers">
-                <SectionHeader title={t("sectionHeader.ourTeam")} description={t("sectionHeader.ourTeamMsg")}/>
+                <SectionHeader title={t("sectionTeam.ourTeam")} description={t("sectionTeam.ourTeamMsg")}/>
             <div className="container justify-content-center" >
             {
                     renderRows()

@@ -46,17 +46,17 @@ function Header() {
         </div>
         <header className="site-navbar site-navbar-target" role="banner">
           <div className="container">
-            <div className="row align-items-center position-relative">
+            <div className="row align-items-center justify-content-between position-relative">
               <div className="col-3 ">
                 <div className="site-logo">
                   <a href="index.html"><img className="site-logo__image" src={logo} alt="logo" /></a>
                 </div>
               </div>
               <div className="col-9 text-right">
-                <span className="d-inline-block d-lg-none"><a href="#" className="text-white site-menu-toggle js-menu-toggle py-5 text-white" onClick={toggleMenu}><span className="icon-menu h3 text-white"></span></a></span>
+                <span className="d-inline-block d-lg-none"><a href="#" className="text-white site-menu-toggle py-5 text-white" onClick={toggleMenu}><span className="icon-menu h3 text-white"></span></a></span>
                 <nav className="navbar navbar-expand-lg site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <div className="navbar-collapse collapse" id="navbarSupportedContent">
-                  <ul className="navbar-nav site-menu main-menu js-clone-nav ml-auto" >
+                  <ul className="navbar-nav site-menu main-menu ml-auto" >
                     <NavItems toggleMenu={toggleMenu} switchLanguage={switchLanguage} />
                   </ul>
                 </div>

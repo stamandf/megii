@@ -31,7 +31,7 @@ i18n
             button1: 'Under Contruction',
             button2: 'Coming soon!'
           },
-          sectionHeader: {
+          sectionTeam: {
             ourTeam: 'Our Team',
             ourTeamMsg: 'Our brokers are here to serve you ethically, with courtesy, professionalism and dignity. Call us today!'
           },
@@ -55,7 +55,7 @@ i18n
             button1: 'En Contruction',
             button2: 'À bientôt!'
           },
-          sectionHeader: {
+          sectionTeam: {
             ourTeam: 'Notre équipe',
             ourTeamMsg: 'Nos courtiers vous servent de manière éthique, courtoise, professionnalle, et avec dignité. Appelez-nous dès aujourd\'hui!'
           },
