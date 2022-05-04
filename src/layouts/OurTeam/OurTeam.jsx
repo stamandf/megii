@@ -1,7 +1,7 @@
 import React from 'react';
-import Broker from './Broker';
+import Broker from '../Broker/Broker';
 import './OurTeam.scss';
-import { brokers } from './brokerList';
+import { brokers } from '../../db/brokerList';
 import SectionHeader from '../SectionHeader/SectionHeader';
 import { useTranslation } from 'react-i18next';
 
