@@ -29,6 +29,7 @@ function Footer() {
                 <div className="border-top pt-5">
                   <p>
                 {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
+                {/* All rights reserved | This template is made with ♥︎ Colorlib by https://colorlib.com */}
                 Copyright &copy; {today.getFullYear()} {t("footer.copyright")} | MEGII
                 </p>
                 </div>
