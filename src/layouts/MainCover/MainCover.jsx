@@ -21,8 +21,6 @@ function MainCover() {
                 <h1 className="mb-4 text-white">Maison Eros <span className="text-primary">Great</span>ti <br/> Immobilier inc.</h1>
                 <div className="d-flex media-38289 justify-content-around mb-5">
                   <p><a href="#" className="btn btn-primary text-white px-4 py-3" onClick={toggleButton}>{buttonPressed ? t("message.button1") : t("message.button2")}</a></p>
-                  {/* <p><a href="#" className="btn btn-primary text-white px-4 py-3"onClick={toggleButton}>{buttonPressed ? "Stay Tuned!" : "Under Construction"}</a></p> */}
-                  {/* <p><a href="#" className="btn btn-primary text-white px-4 py-3">View Properties</a></p> */}
                 </div>
               </div>
             </div>

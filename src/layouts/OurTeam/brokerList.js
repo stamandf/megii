@@ -16,8 +16,8 @@
             "title": "Residential and Commercial Real Estate Broker",
             "photo": require("../../assets/images/denisPortrait.jpg"),
             "facebook": "https://www.facebook.com/Mr.Kash.Denis/",
-            "instagram": "",
-            "phone": "+1-514-845-2723"
+            "instagram": "https://instagram.com/mr.kash.denis/",
+            "phone": "+1-514-797-2222"
         }
         
     ]
