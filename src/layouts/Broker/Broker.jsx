@@ -5,9 +5,6 @@ const Broker = (props) => {
     const { broker, isOne } = props;
     const colWidth = isOne ? "col-md-8 mb-5 ms-auto mb-md-0":"col-md-4 mb-5 ms-auto mb-md-0";
     const { t, i18n } = useTranslation();
-    // const brokerTitle = "brokerTitle" . broker.translateTitle ; 
-    console.log('broker = ', broker);
-    console.log('translateTitle = ', broker.translateTitle);
     const brokerTitle = `brokerTitle.${broker.translateTitle}`;
 
 
