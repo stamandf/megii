@@ -1,14 +1,22 @@
 import React from 'react';
 import NavItems from '../NavItems/NavItems';
 import { useTranslation } from 'react-i18next';
+import logo from '../../assets/images/logoWhite.svg';
+import './Footer.scss';
 
 function Footer() {
   const today = new Date();
   const {t, i18n } = useTranslation();
 
+  // <div className="row">
+  // <div className='col-md-5'>
+  //   <img className='footer-logo' src={logo} alt="logo" />
+  //   </div>
+  // </div>
     return (
         <footer className="site-footer">
           <div className="container">
+
             <div className="row">
               <div className="col-md-4">
                 <h3 className="text-white h5 mb-3">Maison Eros Greatti Immobilier</h3>
@@ -39,6 +47,7 @@ function Footer() {
                 {/* All rights reserved | This template is made with ♥︎ Colorlib by https://colorlib.com */}
                 Copyright &copy; {today.getFullYear()} {t("footer.copyright")} | MEGII
                 </p>
+                <img className="footer-logo" src={logo} alt="logo" />
                 </div>
               </div>
             </div>
