@@ -1,5 +1,6 @@
 {
   "name": "megii-app",
+  "homepage": "http://www.megii.ca",
   "version": "1.0.0",
   "license": "MIT",
   "engines": {

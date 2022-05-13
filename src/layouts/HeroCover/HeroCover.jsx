@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import './MainCover.scss';
+import './HeroCover.scss';
 
-function MainCover() {
+function HeroCover() {
   const [buttonPressed, setButton] = useState(false);
   const { t, i18n } = useTranslation();
 
@@ -41,4 +41,4 @@ function MainCover() {
     );
 }
 
-export default MainCover;
+export default HeroCover;
