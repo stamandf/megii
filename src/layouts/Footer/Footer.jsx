@@ -36,7 +36,7 @@ function Footer() {
               </div>
               <div className="col-md-4">
                 <h3 className="text-white h5 mb-3">{t("footer.ourMissionTitle")}</h3>
-                <p>{t("footer.ourMissionText")}</p>
+                <p className="mission-text">{t("footer.ourMissionText")}</p>
               </div>
             </div>
             <div className="row pt-5 mt-5 text-center">
