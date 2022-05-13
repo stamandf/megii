@@ -44,7 +44,9 @@ i18n
             socials: 'Socials',
             ourMissionTitle: 'Our Mission',
             ourMissionText: 'Promote the highest ethical and professional standards and collaboration among our members.  Ensure a smooth process and positive experience in the purchase or sale of your home and properties.',
-            copyright: 'All rights reserved'
+            copyright: 'All rights reserved',
+            address1:'274-729 Bourget Street',
+            address2:'Montreal, Quebec H4C 2M6'
           }
         }
       },
@@ -75,7 +77,9 @@ i18n
             socials: 'Sociaux',
             ourMissionTitle: 'Notre mission',
             ourMissionText: 'Promouvoir des normes élevées de manières éthiques et professionnelles et de collaboration entre nos membres. Assurez que le processus d\'achat ou de vente de votre maison et de vos propriétés se fasse de manière fluide et agréable.',
-            copyright:'Tous droits réservés'
+            copyright:'Tous droits réservés',
+            address1:'274-729, rue Bourget',
+            address2:'Montréal (Québec) H4C 2M6'
           }
         }
       }

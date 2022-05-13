@@ -12,6 +12,13 @@ function Footer() {
             <div className="row">
               <div className="col-md-4">
                 <h3 className="text-white h5 mb-3">Maison Eros Greatti Immobilier</h3>
+                <p>
+                {t("footer.address1")}
+                <br/>
+                {t("footer.address2")}
+                <br/>
+                Canada
+                </p>
               </div>
               <div className="col-md-3">
                 <h3 className="text-white h5 mb-3">{t("footer.siteLinks")}</h3>
