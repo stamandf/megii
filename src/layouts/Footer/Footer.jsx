@@ -8,11 +8,6 @@ function Footer() {
   const today = new Date();
   const {t, i18n } = useTranslation();
 
-  // <div className="row">
-  // <div className='col-md-5'>
-  //   <img className='footer-logo' src={logo} alt="logo" />
-  //   </div>
-  // </div>
     return (
         <footer className="site-footer">
           <div className="container">
