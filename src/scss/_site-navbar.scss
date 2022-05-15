@@ -20,10 +20,10 @@
 		font-size: 1.7rem;
 		vertical-align: top;
 		&__image {
-			height: 7rem;
+			height: 8rem;
 			width:auto;
 			@include media-breakpoint-down(md) {
-				height: 4rem;
+				height: 7rem;
 			}
 			&:hover {
 				filter: brightness(0) saturate(100%) invert(57%) sepia(48%) saturate(4421%) hue-rotate(0deg) brightness(101%) contrast(102%);
