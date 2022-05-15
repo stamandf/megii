@@ -39,9 +39,9 @@ function Footer() {
                 <p className="mission-text">{t("footer.ourMissionText")}</p>
               </div>
             </div>
-            <div className="row pt-5 mt-5 text-center">
+            <div className="row pt-2 mt-2 text-center">
               <div className="col-md-12">
-                <div className="border-top pt-5">
+                <div className="border-top pt-4">
                   <p>
                 {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                 {/* All rights reserved | This template is made with ♥︎ Colorlib by https://colorlib.com */}
