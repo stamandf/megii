@@ -35,7 +35,8 @@ function Header() {
         <div className="site-mobile-menu site-navbar-target">
           <div className="site-mobile-menu-header">
             <div className="site-mobile-menu-close mt-3" onClick={toggleMenu}>
-              <span className="d-inline-block icon-close2 text-black-50"></span>
+              <span className="d-inline-block icon-close2 text-gray-300"></span>
+              {/* <span className="d-inline-block icon-close2 text-black-50"></span> */}
             </div>
           </div>
           <div className="site-mobile-menu-body">

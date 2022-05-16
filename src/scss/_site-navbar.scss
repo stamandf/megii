@@ -219,7 +219,9 @@
 	right: 0;
 	z-index: 2000;
 	padding-top: 20px;
-	background: $white;
+	background: $dark;
+	
+	// background: $white;
 	// height: calc(100vh);
 	
 	transform: translateX(110%);
@@ -293,7 +295,9 @@
 			padding: 10px 20px;
 			display: block;
 			position: relative;
-			color: $gray-900;
+			color: $gray-300;
+
+			// color: $gray-900;
 			&:hover {
 				color: $primary;
 			}
@@ -301,9 +305,12 @@
 		li {
 			position: relative;
 			display: block;
+			border-bottom: 1px solid $gray-300;
+			
 			.nav-link {
 				&.active {
 					color: $primary;
+					
 				}
 			}
 			&.active {
@@ -311,6 +318,10 @@
 					color: $primary;
 				}
 			}
+
+		}
+		li:nth-last-child(1) {
+			border-bottom: none;
 		}
 		.arrow-collapse {
 			position: absolute;
